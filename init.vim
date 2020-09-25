@@ -17,6 +17,9 @@ syntax on
 filetype plugin on
 let g:python_host_prog  = 'C:/Applics/Python/python.exe'
 
+	"GRUVBOX
+let g:gruvbox_guisp_fallback = 'bg'
+
 	" NERDTREE
 inoremap jk <ESC>
 let NERDTreeWinSize = 30
@@ -57,7 +60,7 @@ else
 endif
 set hidden 
 set shortmess+=c
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+set statusline^=%f\ -\ %{coc#status()}%{get(b:,'coc_current_function','')}
 set incsearch
 set backspace=indent,eol,start
 set nowrap
@@ -70,10 +73,11 @@ colorscheme gruvbox
 " REMAPS
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
-nnoremap <silent> <c-h> :vertical resize -5
-nnoremap <silent> <c-l> :vertical resize +5
-nnoremap <silent> <c-j> :resize -5
-nnoremap <silent> <c-k> :resize +5
+nnoremap <silent> <c-h> :vertical resize -5 <CR>
+nnoremap <silent> <c-l> :vertical resize +5 <CR>
+nnoremap <silent> <c-j> :resize -5 <CR>
+nnoremap <silent> <c-k> :resize +5 <CR>
+nnoremap <silent> <c-s> :w <CR>
 
 	" NERDTREE
 nmap <C-b> :NERDTreeToggle<CR>
