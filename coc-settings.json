@@ -7,16 +7,5 @@
       "filetypes": ["ts"]
     }
   },
-  "java.configuration.runtimes": [
-	{
-		"name": "JDK8",
-		"path": "C:/Applics/Java/jdk8_x64",
-		"default": true
-	}
-  ],
-  "java.configuration.maven.userSettings": "C:/Users/e815955/.config/mvn/settings.xml",
-  "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:C:/Applics/Lombok/lombok.jar",
-  "java.import.maven.enabled": true,
-  "java.maven.downloadSources": true,
   "diagnostic.checkCurrentLine": true
 }
