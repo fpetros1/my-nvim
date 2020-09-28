@@ -37,6 +37,7 @@ set noswapfile
 set smartcase
 set noshowmode
 colorscheme gruvbox
+highlight Normal ctermbg=none
 
 " REMAPS
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
