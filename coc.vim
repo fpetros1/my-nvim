@@ -11,6 +11,7 @@ let g:coc_global_extensions = [
   \ 'coc-java',
   \ 'coc-xml',
   \ 'coc-go',
+  \ 'coc-yaml',
   \ ]
 
 " REMAPS
