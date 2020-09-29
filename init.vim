@@ -14,6 +14,7 @@ source $NVIM_CONFIG_HOME/airline.vim
 syntax on
 filetype plugin on
 
+let mapleader=" "
 set updatetime=50
 set nu
 set smarttab
@@ -47,4 +48,6 @@ nnoremap <silent> <c-l> :vertical resize +5 <CR>
 nnoremap <silent> <c-j> :resize -5 <CR>
 nnoremap <silent> <c-k> :resize +5 <CR>
 nnoremap <silent> <c-s> :w <CR>
-
+nnoremap <silent> <c-q> :q <CR>
+nnoremap <silent> <leader>h :sp <CR>
+nnoremap <silent> <leader>v :vsp <CR>
