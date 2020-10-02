@@ -12,6 +12,8 @@ let g:coc_global_extensions = [
   \ 'coc-xml',
   \ 'coc-go',
   \ 'coc-yaml',
+  \ 'coc-html',
+  \ 'coc-emmet',
   \ ]
 
 " REMAPS
