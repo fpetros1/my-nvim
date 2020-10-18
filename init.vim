@@ -9,6 +9,7 @@ source $NVIM_CONFIG_HOME/prettier.vim
 source $NVIM_CONFIG_HOME/gruvbox.vim
 source $NVIM_CONFIG_HOME/ctrlp.vim 
 source $NVIM_CONFIG_HOME/airline.vim
+source $NVIM_CONFIG_HOME/treesitter.vim
 
 " VIM SETS
 syntax on
