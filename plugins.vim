@@ -11,4 +11,5 @@ call plug#begin('~/.vim/plugged')
 	Plug 'uiiaoo/java-syntax.vim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
