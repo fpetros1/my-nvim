@@ -15,7 +15,7 @@ syntax on
 filetype plugin on
 
 let mapleader=" "
-set updatetime=50
+set updatetime=750
 set nu
 set smarttab
 set cindent
@@ -52,6 +52,10 @@ nnoremap <silent> <c-s> :w <CR>
 nnoremap <silent> <c-q> :q <CR>
 nnoremap <silent> <leader>h :sp <CR>
 nnoremap <silent> <leader>v :vsp <CR>
+nnoremap <silent> <leader>n :noh <CR>
+nnoremap <silent> <leader>ff :Format <CR>
+nnoremap <silent> <leader>tn :tabnew <CR>
+nnoremap <silent> <leader>tc :tabc <CR>
 	" Copy to clipboard
 vnoremap  <leader>y  "+y
 nnoremap  <leader>Y  "+yg_
