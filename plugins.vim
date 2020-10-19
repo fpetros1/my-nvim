@@ -11,5 +11,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'uiiaoo/java-syntax.vim'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'nvim-treesitter/nvim-treesitter'
+	if !has("win32")
+		Plug 'nvim-treesitter/nvim-treesitter'
+	endif
 call plug#end()
